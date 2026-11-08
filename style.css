@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #16161D; /* Eigengrau */
+    box-sizing: border-box;
+}
+
+code {
+    font-size: inherit;
+    color: inherit;
+}
+
+h1 {
+    color: #FFe600;  
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.container {
+    width: 85vw;
+    height: 85vh;
+    border-radius: 2.1vw;
+    border: 0.3vw solid #FFe600;
+    padding: 1.4vw;
+    background-color: #16161D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1vw;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    background-color: #16161D;
+    color: #FFe600;
+    border: 0.2vw solid #FFe600;
+    border-radius: 1vw;
+    padding: 0 1.5vw;
+    font-size: 7vw;
+    text-align: right;
+    outline: none;
+}
+
+.button-row {
+    width: 100%;    
+    height: 18%;    
+    display: flex;  
+    gap: 1vw;     
+}
+
+.button-row button {
+    flex: 1;        
+    height: 100%;   
+    box-sizing: border-box;
+    background-color: #16161D;
+    color: #FFe600;
+    border: 0.2vw solid #FFe600;
+    border-radius: 1vw;
+    font-size: 2.5vw;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.button-row button:hover {
+    background-color: #FFe600;
+    color: #16161D;
+    font-weight: bold;
+}
+
+.button-row button:active {
+    transform: scale(0.96);
+}
+
+.button-row .clear-button {
+    background-color: #FFe600;
+    color: #16161D;
+    font-weight: bold;
+}
+
+.button-row .clear-button:hover {
+    background-color: #16161D;
+    color: #FFe600;
+}
